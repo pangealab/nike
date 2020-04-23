@@ -13,6 +13,5 @@ pool:
 steps:
 - task: queryWorkItems@0
   inputs:
-    queryId: 'CHG0400016'
     maxThreshold: '2'
     minThreshold: '1'
