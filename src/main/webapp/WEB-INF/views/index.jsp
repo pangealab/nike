@@ -16,6 +16,8 @@
 								<p class="text-center mb0">
 									We believe in the power of teams.  We take care of our employees, have fitness rooms
 									and casual dress, and we don't believe in walls
+
+									Updated index page text
 								</p>
 							</div>
 						</div>
