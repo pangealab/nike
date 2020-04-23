@@ -1,4 +1,5 @@
 # Starter pipeline
+
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
@@ -10,9 +11,8 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- task: UpdateServiceNowChangeRequest@2
+- task: queryWorkItems@0
   inputs:
-    ServiceNowConnection: 'SNOW connection'
-    ChangeRequestNumber: 'CHG0400016'
-    NewStatus: '0'
-    otherParameters: ''
+    queryId: 'CHG0400016'
+    maxThreshold: '2'
+    minThreshold: '1'
