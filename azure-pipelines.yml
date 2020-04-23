@@ -15,9 +15,4 @@ steps:
     ServiceNowConnection: 'SNOW connection'
     ChangeRequestNumber: 'CHG0400016'
     NewStatus: '0'
-    WorkNotes: 'Note 1'
-    otherParameters: |
-      "cmdb_ci": {
-            "display_value": "Globex Prod Web Service",
-            "value": "fc3df85e1b58d014673a7733cd4bcbb0"
-          }
+    otherParameters: ''
